@@ -100,10 +100,7 @@ const App = () => {
 
     const checkPrice = (event) => {
         event.target.value = event.target.value.replace(/\D/g, '');
-        let startPos = event.target.selectionStart;
         event.target.value = event.target.value.replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-        // let startPos = event.target.selectionStart;
-        event.target.setSelectionRange(startPos+1,startPos+1);
     }
 
 
