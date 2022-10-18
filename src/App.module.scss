@@ -1,0 +1,27 @@
+a,
+a:hover,
+a:visited {
+	display: inline-flex;
+	text-decoration: none;
+}
+
+.searchForm {
+	margin: 60px auto 0;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	font-size: 26px;
+	max-width: 500px;
+}
+
+.formInput {
+	background-color: #ffffff !important;
+	border-radius: 4px;
+
+	&::before {
+		border-bottom: none;
+	}
+	&::after {
+		border-bottom: none;
+	}
+}
