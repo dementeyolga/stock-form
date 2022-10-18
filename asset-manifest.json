@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/stock-form/static/css/main.e59f4cc6.css",
+    "main.js": "/stock-form/static/js/main.70adab23.js",
+    "index.html": "/stock-form/index.html",
+    "main.e59f4cc6.css.map": "/stock-form/static/css/main.e59f4cc6.css.map",
+    "main.70adab23.js.map": "/stock-form/static/js/main.70adab23.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e59f4cc6.css",
+    "static/js/main.70adab23.js"
+  ]
+}
